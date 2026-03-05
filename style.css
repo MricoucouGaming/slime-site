@@ -19,6 +19,13 @@ body {
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
+  background-image: url('images/fond.png');
+  background-attachment: fixed; /* L'image ne bouge pas au scroll */
+  background-size: cover;       /* L'image prend tout l'écran */
+  background-position: center, top;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
 
 @keyframes titleColorCycle {
@@ -63,13 +70,13 @@ body.sidebar-open .sidebar { transform: translateX(0); }
 body.sidebar-open .overlay { opacity: 1; pointer-events: auto; }
 
 .hamburger {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1200;
-  font-size: 28px;
-  color: var(--accent);
-  cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 10px;    
+    z-index: 1200;
+    font-size: 28px;
+    color: var(--accent);
+    cursor: pointer;
 }
 
 .menu-btn {
@@ -265,27 +272,25 @@ a::selection {
 }
 
 .site-footer {
-    background-color: #1a1a1a;
+background-color: rgba(26, 26, 26, 0.9);
     color: #ffffff;
-    padding: 60px 0 20px 0;
-    font-family: 'Arial', sans-serif;
-    margin-top: 80px;
+    padding: 40px 0 20px 0;
+    margin-top: 0; 
     border-top: 3px solid #4da6ff;
+    width: 100%;
 }
 
 .footer-container {
-    max-width: 1200px;
+max-width: 1000px; 
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
 }
 
 .footer-column {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 30px;
+  min-width: 0;
 }
 
 .footer-column h3, .footer-column h4 {
@@ -427,3 +432,15 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+.container {
+    background-color: #d1d5d8;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block; 
+    overflow: hidden;
+    position: relative;
+}
+
+body.sidebar-open .hamburger {
+    display: none;
+}
