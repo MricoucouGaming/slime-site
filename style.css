@@ -182,7 +182,6 @@ body.sidebar-open .overlay { opacity: 1; pointer-events: auto; }
   .menu-btn, .submenu-btn, .submenu a { width: 96%; max-width: none; }
 }
 
-
 .lightbox {
   position: fixed;
   inset: 0;
@@ -421,6 +420,8 @@ img {
   outline-width: 0.09cm;
   outline-style: inset;
   border-radius: 1cm;
+  max-width: 100%;  /* ← LA CORRECTION : images responsives */
+  height: auto;     /* ← conserve le ratio */
 }
 
 .ftr::selection {
@@ -431,16 +432,13 @@ h1::selection {
   color: rgb(0, 140, 255);
 }
 
-
 html, body {
   font-family: 'Playfair Display', serif;
 }
 
-
 * {
   font-family: 'Playfair Display', serif;
 }
-
 
 p {
   font-size: 1.1rem; 
@@ -459,12 +457,12 @@ h1, h2, h3 {
     display: block; 
     overflow: hidden;
     position: relative;
-    border: 3px solid  #bbb;
+    border: 3px solid #bbb;
     border-radius: 12px;
     box-shadow: 
-        0 0 0 2px  black,
+        0 0 0 2px black,
         0 15px 35px rgba(0, 0, 0, 0.25);
-    min-height: calc(100vh - 60px); /* ← LA MODIF : remplit toujours la fenêtre */
+    min-height: calc(100vh - 60px);
 }
 
 @media (max-width: 768px) {
@@ -475,7 +473,7 @@ h1, h2, h3 {
         padding: 25px 15px;
         border-width: 2px;
         max-width: 100%;
-        min-height: calc(100vh - 30px); /* ← padding mobile = 15px × 2 */
+        min-height: calc(100vh - 30px);
     }
 }
 
