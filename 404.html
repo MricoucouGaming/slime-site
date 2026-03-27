@@ -1,19 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <link rel="icon" type="image/png" href="Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ── Reset & base ── */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Playfair Display', serif;
+        }
 
+        *::selection {
+            color: rgb(39, 39, 39);
+        }
+
+        :root {
+            --bg: #ddd;
+            --accent: #53cdd8;
+            --accent-2: #4fd1dd;
+            --title-cycle: 8s;
+        }
+
+        /* ── Body ── */
+        body {
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            background-image: url(fond.png);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center, top;
+            margin: 0;
+            padding: 30px 15px;
+            background-color: transparent;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px 10px;
+            }
+        }
+
+        /* ── Typography ── */
+        p {
+            color: rgb(59, 59, 59);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(189, 76, 19);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(31, 31, 31);
+        }
+
+        a::selection {
+            color: rgb(133, 133, 133);
+        }
+
+        h1::selection {
+            color: rgb(0, 140, 255);
+        }
+
+        img {
+            outline-color: rgb(255, 94, 0);
+            outline-width: 0.09cm;
+            outline-style: inset;
+            border-radius: 1cm;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* ── Animated title ── */
+        @keyframes titleColorCycle {
+            0%   { color: #048ea3; }
+            25%  { color: #4169E1; }
+            50%  { color: #41a1e1; }
+            75%  { color: #4169E1; }
+            100% { color: #048ea3; }
+        }
+
+        .title {
+            animation: titleColorCycle var(--title-cycle) linear infinite;
+        }
+
+        /* ── Typing cursor on #titre-principal ── */
+        #titre-principal::after {
+            content: "|";
+            animation: clignote 0.7s infinite;
+        }
+
+        @keyframes clignote {
+            0%, 100% { opacity: 1; }
+            50%       { opacity: 0; }
+        }
+
+        #titre-principal.fini::after {
+            display: none;
+        }
+
+        /* ── Container ── */
+        .container {
+            background-color: #bbb;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            display: block;
+            overflow: hidden;
+            position: relative;
+            border: 3px solid #bbb;
+            border-radius: 12px;
+            box-shadow:
+                0 0 0 2px black,
+                0 15px 35px rgba(0, 0, 0, 0.25);
+            min-height: calc(100vh - 60px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px 15px;
+                border-width: 2px;
+                max-width: 100%;
+                min-height: calc(100vh - 30px);
+            }
+        }
+
+        /* ── 404 specific ── */
+        .erreur {
+            color: #1e7780;
+        }
+
+        .erreur-btn {
+            background-color: #bbb;
+            color: #1e7780;
+            text-decoration: none;
+        }
+    </style>
+    <script defer>
+        // Typing cursor disappears once page is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            const titre = document.getElementById('titre-principal');
+            if (titre) {
+                setTimeout(() => titre.classList.add('fini'), 1500);
+            }
+        });
+    </script>
 </head>
 <body>
     <center>
     <div class="container">
         <h1 class="title" id="titre-principal">Erreur 404</h1>
-<br><br>
+        <br><br>
+
         <h1 class="erreur">Je crois que la page n'existe pas</h1>
         <h2 class="erreur">A moins que ce soit de ma faute</h2>
         <h3 class="erreur">J'ai surement fait une erreur</h3>
@@ -21,14 +172,13 @@
         <h5 class="erreur">Et je me suis loupé</h5>
         <h6 class="erreur">Excusez moi</h6>
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         <h5 class="erreur">Vous me pardonnez?</h5>
-        <h5><a href="index.html" class="erreur-btn">OUI</a>
-            <a href="" class="erreur-btn">NON</a></h5>
-
+        <h5>
+            <a href="index.html" class="erreur-btn">OUI</a>
+            <a href="" class="erreur-btn">NON</a>
+        </h5>
     </div>
     </center>
 </body>
