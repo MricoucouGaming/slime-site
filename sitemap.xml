@@ -1,8 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d'accueil -->
   <url>
     <loc>https://mricoucougaming.github.io/slime-site/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-03-27</lastmod>
     <priority>1.0</priority>
   </url>
+
+  <!-- Nations -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/F%C3%A9d%C3%A9ration%20de%20Jura-Tempest.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20Arm%C3%A9%20de%20Dwargon.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Dynastie%20de%20Thalion.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Saint%20Empire%20de%20Rob%C3%A9rios.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Empire%20d%20Orient.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20d%20Ingrassia.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20de%20Burmund.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20de%20Falmuth.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20Siltrosso.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20d%20Eurazania.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Nation%20des%20Pantins%20de%20Jistav.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Cit%C3%A9%20de%20l%20Or%20d%20El%20Dorado.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Cit%C3%A9%20du%20Dragon%20Oubli%C3%A9.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Fulbrosia.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20de%20Raja.html</loc><priority>0.8</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/Nations/Royaume%20de%20Coleus.html</loc><priority>0.8</priority></url>
+
+  <!-- Tome 1 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Satoru%20Mikami.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Tamura.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Miho%20sawatari.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Homme%20au%20couteau.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Sage.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Grand%20sage.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Limule%20Tempest%20(Slime).html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Veldra%20Tempest%20(Dragon).html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Trio%20d%27aventuriers.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Baron%20Beryard.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Fuse.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Tribue%20de%20Gobelins.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Meute%20des%20crocs.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Riguru%27d.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Riguru.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Gobuta.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Gobuzo.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Haruna.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Ranga.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Kaido.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Kaijin.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Dord.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Garm.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Myrd.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Vester.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Elfes.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Shizue%20Izawa.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%201/Gazehr%20Dwargo.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 2 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Serviteur%20de%20l%27ombre.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Kabaru.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Gido.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Ellen.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Leon%20Cromwell.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Ifrit.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Limule%20Tempest%20(Humain).html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Germudo.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%202/Gerdo.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 3 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Ruguru%27d.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Reguru%27d.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Roguru%27d.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Lilina.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Tribue%20des%20ogres.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Benimaru.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Shuna.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Shion.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Hakur%C3%B4.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/S%C3%B4ei.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Kurob%C3%AA.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Chef%20des%20hommes%20l%C3%A9zards.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Gabiru.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%203/Tryney.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 4 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%204/Laplace.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 5 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%205/Gerudo%20(p%C3%A8re).html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%205/Gerudo%20(fils).html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 6 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%206/S%C3%B4ka.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%206/Millim%20Narva.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%206/Callion.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%206/Frey.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%206/Kleiman.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 7 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%207/Fobio.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%207/Youmu.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%207/Tia.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%207/Charybde.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 8 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%208/Footman.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%208/Ronmel.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%208/Tria.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 9 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%209/Albis.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%209/Sufia.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%209/Gloosys.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%209/Koby.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 10 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Yuki%20Kagurazaka.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Jigys.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Roi%20de%20Burmund.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Hinata%20Sakaguchi.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Kenya%20Misaki.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Chlo%C3%A9%20Haubert.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Gale%20Gibson.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Alice%20Rondo.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2010/Ry%C3%B4ta%20Sekiguchi.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 11 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2011/Mj%C3%B6lmile.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2011/Lamrys.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2011/Beretta.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 12 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Myuuran.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Edmaris%20Falmus.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Reyhim.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Razen.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Folgen.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Ky%C3%B4ya%20Tachibana.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Kirara%20Mizutani.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2012/Sh%C3%B4go%20Taguchi.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 13 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2013/Ellyun%20Grimalt.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 14 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2014/Razen%20(poss%C3%A9dant%20le%20corp%20de%20Sh%C3%B4go).html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2014/Trio%20de%20Daemons.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 15 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2015/Rapha%C3%ABl.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2015/Diablo%20(Noir).html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 16 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2016/Veldra%20Tempest%20(forme%20humaine).html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2016/Kazarym.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2016/Valentin.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2016/Eraldo%20Grimwalt.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 17 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Nikoalus%20Spertus.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Guy%20Crimson.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Velzard.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Zegion.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Yamza.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Middray.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Luminus.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Dino.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Misery.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Rain.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Adalman.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2017/Dagrule.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 18 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2018/Neuf-T%C3%AAtes.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2018/Viola.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 19 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2019/Roy%20Valentin.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2019/Louis%20Valentin.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 20 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Compte%20Edward.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Saar%C3%A9.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Les%20septenniens.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Leonard%20Jester.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Arnaud%20Baumann.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Gregory.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Fritz.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Glenda.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Blacchus.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Ghard.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Rhytis.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Granbell%20Rozzo.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Masayuki.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Damrada.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2020/Mariabell.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 21 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2021/Comte%20Nidol.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2021/Chasseurs%20de%20daemons.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 22 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Dina.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Venue.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Zaus.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Merys.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Sarn.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Blanche.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Vega.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Misha.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Kagary.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2022/Darm.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 23 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Kazack.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Dame%20jeanne.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Elmecia%20El%20Ru%20Salion.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Yoshida.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Gobu%C3%A9mon.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Gobucky%C3%BB.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Momiji.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Kaede.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Byakuya%20Araki.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Youmu%20Falmenace.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2023/Bidd.html</loc><priority>0.6</priority></url>
+
+  <!-- Tome 24 -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Flamea.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Abiru.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Gozu.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Mezu.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Dagra.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Rula.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Grora.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Jinrai.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Valachia.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Bernie.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Ji-Woo.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Marquis%20de%20Gohsel.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Edgar.html</loc><priority>0.6</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/persos/Tome%2024/Mademoiselle%20Tiss.html</loc><priority>0.6</priority></url>
+
+  <!-- Pages footer -->
+  <url><loc>https://mricoucougaming.github.io/slime-site/footer/a-propos.html</loc><priority>0.5</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/footer/objectifs.html</loc><priority>0.5</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/footer/sources.html</loc><priority>0.5</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/footer/fan-made.html</loc><priority>0.5</priority></url>
+  <url><loc>https://mricoucougaming.github.io/slime-site/footer/credits.html</loc><priority>0.5</priority></url>
+
 </urlset>
