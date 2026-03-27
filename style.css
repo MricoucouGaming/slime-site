@@ -29,11 +29,11 @@ body {
 }
 
 @keyframes titleColorCycle {
-  0%   { color: #53cdd8; }
-  25%  { color: #1397a3; }
-  50%  { color: #3a858b; }
-  75%  { color: #07c2d3; }
-  100% { color: #53cdd8; }
+  0%   { color: #008080; }
+  25%  { color: #4169E1; }
+  50%  { color: #00BFFF; }
+  75%  { color: #4169E1; }
+  100% { color: #008080; }
 }
 .title { 
   animation: titleColorCycle var(--title-cycle) linear infinite; 
