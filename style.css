@@ -4,7 +4,7 @@
 }
 
 *::selection{
-  color: rgb(39, 39, 39);
+  color: rgb(0, 140, 255);
 }
 
 :root{
@@ -269,7 +269,7 @@ a:hover {
 }
 
 a::selection {
-  color: rgb(133, 133, 133);
+  color: rgb(0, 140, 255);
 }
 
 .site-footer {
@@ -421,12 +421,12 @@ img {
   outline-width: 0.09cm;
   outline-style: inset;
   border-radius: 1cm;
-  max-width: 100%;  /* ← LA CORRECTION : images responsives */
-  height: auto;     /* ← conserve le ratio */
+  max-width: 100%;
+  height: auto;
 }
 
 .ftr::selection {
-  color: rgb(31, 31, 31);
+  color: rgb(0, 140, 255);
 }
 
 h1::selection {
@@ -508,7 +508,6 @@ button:hover {
   max-width: 700px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), inset 0 0 30px rgba(0,0,0,0.1);
   color: #1e7780;
-  font-style: italic;
   line-height: 1.8;
   text-align: center;
 }
