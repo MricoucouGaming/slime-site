@@ -521,3 +521,10 @@ button:hover {
   color: #1e7780;
   text-decoration: none;
 }
+
+.search {
+  background-color: #cfcfcf;
+  outline: none;
+  border-style: none;
+  border-radius: 10cm;
+}
